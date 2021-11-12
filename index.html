@@ -1,45 +1,54 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <title>
-      Tailwind Starter Template - Landing Page Template: Tailwind Toolbox
-    </title>
-    <meta name="description" content="" />
-    <meta name="keywords" content="" />
-    <meta name="author" content="" />
-    <link rel="stylesheet" href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" />
-    <!--Replace with your tailwind.css once created-->
-    <link href="https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,700" rel="stylesheet" />
-    <!-- Define your gradient here - use online tools to find a gradient matching your branding-->
-
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tailwind Starter Template - Fixed Header : Tailwind Toolbox</title>
+	<meta name="author" content="name">
+    <meta name="description" content="description here">
+	<meta name="keywords" content="keywords,here">
+	<link href="https://unpkg.com/tailwindcss/dist/tailwind.min.css" rel="stylesheet"> <!--Replace with your tailwind.css once created-->
+	<link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet"> <!--Totally optional :) -->
+	
 </head>
-<body>
-<header class="text-gray-600 body-font">
-  <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
-    <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0">
-     <!-- <svg xmlns="http://www.w3.org/2000/svg" fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-10 h-10 text-white p-2 bg-indigo-500 rounded-full" viewBox="0 0 24 24">
-        -->
-        <path d="M12 2L2 7l10 5 10-5-10-5zM2 17l10 5 10-5M2 12l10 5 10-5"></path>
-      </svg>
-      <span class="ml-3 text-xl">Sakib Rayhan</span>
-    </a>
-    <nav class="md:ml-auto flex flex-wrap items-center text-base justify-center">
-      <a class="mr-5 hover:text-gray-900">Home</a>
-      <a class="mr-5 hover:text-gray-900">About</a>
-      <a class="mr-5 hover:text-gray-900">Contact</a>
-      <a class="mr-5 hover:text-gray-900">Work</a>
+<body class="bg-gray-400 font-sans leading-normal tracking-normal">
+
+	<!--Nav-->
+	<nav class="bg-gray-800 p-2 mt-0 fixed w-full z-10 top-0">
+        <div class="container mx-auto flex flex-wrap items-center">
+		    <div class="flex w-full md:w-1/2 justify-center md:justify-start text-white font-extrabold">
+				<a class="text-white no-underline hover:text-white hover:no-underline" href="#">
+					<span class="text-2xl pl-2"><i class="em em-grinning"></i> Brand McBrandface</span>
+				</a>
+            </div>
+			<div class="flex w-full pt-2 content-center justify-between md:w-1/2 md:justify-end">
+				<ul class="list-reset flex justify-between flex-1 md:flex-none items-center">
+				  <li class="mr-3">
+					<a class="inline-block py-2 px-4 text-white no-underline" href="#">Active</a>
+				  </li>
+				  <li class="mr-3">
+					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
+				  </li>
+				  <li class="mr-3">
+					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
+				  </li>
+					<li class="mr-3">
+					<a class="inline-block text-gray-600 no-underline hover:text-gray-200 hover:text-underline py-2 px-4" href="#">link</a>
+				  </li>
+				</ul>
+			</div>
+        </div>
     </nav>
-    <!--<button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">Button
-      -->
-      <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
-        <path d="M5 12h14M12 5l7 7-7 7"></path>
-      </svg>
-    </button>
-  </div>
-</header>
+
+
+	<!--Container-->
+	<div class="container shadow-lg mx-auto bg-white mt-24 md:mt-16 h-screen">
+		
+	
+		
+	</div>
+
 
 </body>
 </html>
